@@ -103,14 +103,14 @@ for i in range(1,11):
     total=n*i
     print(total)'''
 
-''''num=int(input())
-rev = 0
-while num>0:
-    digit=num%10
-    rev= rev*10+digit
-    num=num//10
-print(rev)
-'''
+# num=int(input())
+# rev = 0
+# while num>0:
+#     digit=num%10
+#     rev= rev*10+digit
+#     num=num//10
+# print(rev)
+
 ''''n=int(input())
 count=0
 while n !=0:
@@ -338,20 +338,21 @@ for i in b:
     p*=i
 print(p)'''
 
-''''n = int(input())
-a= [map(int,input().split()) for i in range(n)]
-m=0
-for i in a:
-    s=sum(i)
-    if s>m:
-        m=s
-        ind=a.index(i)
-print(ind)'''
+# n = int(input())
+# a= [map(int,input().split()) for i in range(n)]
+# m=0
+# for i in a:
+#     s=sum(i)
+#     if s>m:
+#         m=s
+#         ind=a.index(i)
+# print(ind)
 
 '''a=[1,2,3,4]
 a=tuple(a)
 print(a)
 '''
+
 '''t=tuple(input().split(' '))
 l=len(t)
 print(l)
@@ -991,7 +992,13 @@ print(d)'''
 # slyther.get_info()
 # print()
 
-
+# giving input till negative number is given and break the loop
+# while True :
+#     x=int(input())
+#     if x<0:
+#         break
+#     else:
+#         False
 
 
 
