@@ -1001,8 +1001,9 @@ print(d)'''
 #         False
 
 
-
-
+l=["flower","flow","flight"]
+l1=sorted(l)
+print(l1)
 
 
 
